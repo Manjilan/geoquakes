@@ -24,10 +24,7 @@ $(document).ready(function() {
             lng: parseInt(this.geometry.coordinates[0])
           },
           map: map,
-          icon: {
-            url: "images/earthquake.png",
-            scaledSize: {height: 40, width: 40}
-          }
+          icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
         });
       })
     },
